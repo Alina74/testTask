@@ -1,0 +1,64 @@
+.aboutUs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+    position: relative;
+    padding-bottom: 112px;
+
+    &__title {
+        color: var(--colorAzure);
+        letter-spacing: .05em;
+    }
+}
+
+.infoCards {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 380px;
+    height: 537px;
+    box-shadow: 5px 20px 50px 0 var(--colorShadow2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 100px;
+    border-radius: 10px;
+
+    &__info {
+        width: 284px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 48px;
+    }
+
+    &__illustration {
+        margin-bottom: 35px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &--left {
+        position: absolute;
+        right: 470px;
+        top: 300px;
+        z-index: 5;
+    }
+}
+
+.learnMore {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 16px;
+    align-items: center;
+    cursor: pointer;
+
+    &__text {
+        font-size: 14px;
+        color: var(--colorDanube);
+    }
+ }

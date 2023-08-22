@@ -1,0 +1,108 @@
+doctype html
+html(lang= 'ru')
+  head
+    meta(charset='utf-8')
+    title= 'Тестовое задание'
+  body
+    header
+      div.header-inner
+        a.header-inner__elem
+          img.header-inner__logo(src=require('../images/logo.png'))
+        a.header-inner__elem
+          img.header-inner__menu(src=require('../images/menu.png'))
+    section.section.section--gradient
+      div.wrapper-inner.preview
+        div.preview__info
+          h1.preview__title New Automation Tool for Your Home
+          p.preview__text.regularText Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tristique vulputate ultrices ut mauris tellus at. Posuere sollicitudin odio tellus elit.
+          button.btn.btn--isBlue
+            span.btn__label See Our Project
+        img.preview__illustration(src=require('../images/illustration.png'))
+    section.section
+      div.wrapper-inner.aboutUs
+        h2.aboutUs__title What we do to help <br> our client grow in <br> digital era,
+        div.aboutUs__infoCards
+          div.card
+            div.card__info
+              div.card__illustration
+                img(src=require('../images/card1.png'))
+              h3.card__title.thirdTitle Bring Technology To Your Comfrotable Home
+              p.card__text.regularText Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              a.div.learnMore
+                p.learnMore__text Learn more
+                img.learnMore__icon(src=require('../images/arrow.png'))
+          div.card.card--left
+            div.card__info
+              div.card__illustration
+                img(src=require('../images/card2.png'))
+              h3.card__title.thirdTitle Make Your business To Be Better Famous In Internet
+              p.card__text.regularText Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              a.div.learnMore
+                p.learnMore__text Learn more
+                img.learnMore__icon(src=require('../images/arrow.png'))
+          div.card
+            div.card__info
+              div.card__illustration
+                img(src=require('../images/card3.png'))
+              h3.card__title.thirdTitle Build Your Digital Product That Suitable For Your Need
+              p.card__text.regularText Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              a.div.learnMore
+                p.learnMore__text Learn more
+                img.learnMore__icon(src=require('../images/arrow.png'))
+    section.section.section--leftRadius.section--isBlue
+      div.wrapper-inner.clients
+        div.clients__text
+          h2.clients__title Our Beloved Client
+          p.clients__info.regularText Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        table.table
+         tbody
+           tr
+             td LOGO CLIENT 1
+             td LOGO CLIENT 2
+             td LOGO CLIENT 3
+             td LOGO CLIENT 4
+           tr
+             td LOGO CLIENT 5
+             td LOGO CLIENT 6
+             td LOGO CLIENT 7
+             td.table__button More Client
+    section.section.section--isBlue
+      div.section.section--rightRadius.section--isDarkBlue
+        div.wrapper-inner.invite
+          div.invite__text
+            h2.invite__title Intersted to woek with our team?
+            p.invite__info.regularText Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          button.btn.btn--isBlue Let’s Talk
+        hr.section.section__dividingLine
+        div.wrapper-inner.footer
+          div.contacts
+            div.contacts__logo
+              img(src=require('../images/logoReverce.png'))
+              p.contacts--sizeFontName Afrianska
+            div.contacts__items
+              div.contacts__item
+                p.regularText A.
+                p.regularText Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              div.contacts__item
+                p.regularText T.
+                p.regularText +62-812-7313-4321
+              div.contacts__item
+                p.regularText E
+                p.regularText hello.afrian@gmail.com
+          div.links
+            div.links__ourLinks
+              h3.thirdTitle.links__title About US
+              a(href='#') About
+              a(href='#') What We Do
+              a(href='#') Project
+              a(href='#') How It Work With Us
+            div.links__ourLinks
+              h3.thirdTitle.links__title Follow US
+              a(href='#') Instagram
+              a(href='#') Facebook
+              a(href='#') LinkedIn
+              a(href='#') Youtube
+          p.footer__rights.regularText 2019 © Afrianska. All rights reserved.
+
+
+
